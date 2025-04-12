@@ -56,7 +56,7 @@ if page == "Overview":
 
         # ECG Image
         image = Image.open("ecg.jpg")
-        st.image(image, caption="ECG Signal", use_column_width=True)
+        st.image(image, caption="ECG Signal", use_container_width =True)
 
         st.markdown("---")
 
